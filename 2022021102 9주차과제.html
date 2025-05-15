@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>9주차 과제</title>
+    <style>
+        h1{
+            text-align: center;
+            color:brown;
+        }
+        body{
+            background-color: aliceblue;
+        }
+        p{
+            text-indent: 1em;
+            font-size: 1em;
+            font-family:"휴먼편지체", sans-serif;
+        }
+        a{
+            text-decoration: none;
+        }
+        div{
+            border-width: 1px;
+            border-style: dotted;
+            border-color:blue;
+        }
+        h3{
+            text-shadow: 3px 3px 5px black;
+        }
+        footer{
+            background-color: orange;
+            border-radius: 20px;
+        }
+        
+    </style>
+    <style>
+        table {
+            border-collapse: collapse;
+           }
+           td,th{
+            text-align: left;
+            padding: 5px;
+            height: 15px;
+            width: 100px;
+           }
+           thead,tfoot{
+            background: darkgray;
+            color: aqua;
+           }
+           tbody tr:nth-child(even){
+            background: aliceblue;
+           }
+           tbody tr:hover{
+            background: pink;
+           }
+    </style>
+</head>
+<body>
+    <header>
+    <h1>About me</h1>
+    <hr>
+    <p>
+        안녕하세요. 저는 복학생 2학년 정인성입니다.<br>
+        관심분야는 운동관련이고 취미는 활동적인것입니다.
+    </p><br>
+    <audio src="media/introduce myself.mp3.m4a"
+    controls> 
+    브라우저가 audio 태그를 지원하지 않습니다
+</audio>
+    </header>
+    <nav>
+    <h3>목차</h3>
+    <div>
+    <ul>
+        <li><a href="#area of concern">관심분야</a></li>
+        <li><a href="#hobby">취미활동</a></li>
+        <li><a href="#schedule">강의 시간표</a></li>
+    </ul></nav></div>
+    <section>
+        <article id="area of concern">
+    <h3>관심분야</h3>
+    <hr>
+    <ul>
+        <li>가슴운동 루틴
+            <ul>
+                <li>인클라인 벤치프레스(윗가슴)
+                <li>덤벨프레스(가슴전체)
+                <li>체스트 프레스(가슴전체)
+            </ul>
+        <li>등운동 루틴
+            <ul>
+                <li>렛풀다운(광배근)
+                <li>바벨로우(등상부)
+                <li>시티드 로우(등전체)
+            </ul>
+        <li>어깨운동 루틴
+            <ul>
+                <li>오버헤드프레스(어깨 전체)
+                <li>사이드레터럴레이즈(측면어깨)
+                <li>벤트오버레이즈(후면어깨)
+            </ul>
+    </ul><br></article>
+    <article id="hobby">
+    <h3>취미활동</h3>
+    <hr>
+    <table border="1">
+        <tbody>
+            <tr><td><img src="media/talk.jpeg" width="150" height="150" alt="talk"></td>
+                <td><img src="media/walk.jpeg" width="150" height="150" alt="walk"></td>
+                <td><img src="media/game.jpeg" width="150" height="150" alt="game"></td></tr>
+            <tr><td>이야기하기</td><td>산책하기</td><td>게임하기</td></tr><br>
+        </tbody>
+    </table></article>
+    <article id="schedule">
+    <h3>강의 시간표(2025 1학기)</h3>
+    <hr>
+    <table border="1">
+        <caption>강의 시간표</caption>
+        <thead><tr><th>구분</th><th>월</th><th>화</th><th>수</th><th>목</th><th>금</th></tr></thead>
+        <tbody>
+            <tr><td>9</td><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr><td>10</td><td></td><td rowspan="3">프로그래밍언어실습 1</td><td></td><td rowspan="3">컴퓨터 과학개론</td><td></td></tr>
+            <tr><td>11</td><td></td><td></td><td></td></tr>
+            <tr><td>12</td><td></td><td></td><td></td></tr>
+            <tr><td>1</td><td></td><td></td><td rowspan="2">sw개발문제해결능력</td><td></td><td></td></tr>
+            <tr><td>2</td><td></td><td rowspan="2">컴퓨팅사고력</td><td rowspan="3">인터넷콘텐츠</td><td rowspan="2">생활스포츠</td></tr>
+            <tr><td>3</td><td></td><td></td></tr>
+            <tr><td>4</td><td></td><td></td><td></td><td></td></tr>
+            <tr><td>5</td><td></td><td></td><td></td><td></td><td></td></tr>
+        </tbody>
+    </table></article>
+    </section>
+    <footer>
+    <li><a href="https://inseong-0512.github.io/webcontents/survey.html" target="_blank">설문조사</a></li>
+        <p>2025년 05월 15일 작성</p>
+    </footer>
+</body>
+
+</html>
